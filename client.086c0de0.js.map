@@ -1,1 +1,0 @@
-{"version":3,"sources":["client.js"],"names":["$app","document","querySelector","innerText"],"mappings":";AAAA,IAAMA,EAAOC,SAASC,cAAc,QACpCF,EAAKG,UAAY","file":"client.086c0de0.js","sourceRoot":"..","sourcesContent":["const $app = document.querySelector('#app');\n$app.innerText = 'Hello world';\n"]}
