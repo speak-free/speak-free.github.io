@@ -1,0 +1,11 @@
+<SessionContext.Provider value={{session, updateSession}}>
+  <Router>
+      <NavBar />
+      <div className={session?styles.main_wrapper:styles.main_landing}>
+        {renderSidebar()}
+        <Switch>
+          {renderRoutes()}
+        </Switch>
+      </div>
+  </Router>
+</SessionContext.Provider>
