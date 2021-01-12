@@ -1,0 +1,30 @@
+{
+  "name": "speak-free.github.io",
+  "version": "1.0.0",
+  "description": "speak free",
+  "main": "client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "predeploy": "rm -rf dist && parcel build index.html --public-url speak-free.github.io",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/speak-free/speak-free.github.io.git"
+  },
+  "keywords": [
+    "speak",
+    "free"
+  ],
+  "author": "speak free",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/speak-free/speak-free.github.io/issues"
+  },
+  "homepage": "https://github.com/speak-free/speak-free.github.io#readme",
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
