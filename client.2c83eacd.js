@@ -31,4 +31,4 @@ var r=require("./arrayWithHoles"),e=require("./iterableToArrayLimit"),t=require(
 },{"@babel/runtime/helpers/slicedToArray":"xw6J","react":"HdMw","captcha-text-generator":"LbXj"}],"IVsl":[function(require,module,exports) {
 "use strict";var e=u(require("react-dom")),r=u(require("react")),t=u(require("./src/App.js"));function u(e){return e&&e.__esModule?e:{default:e}}e.default.render(r.default.createElement(t.default,null),document.getElementById("root"));
 },{"react-dom":"X9zx","react":"HdMw","./src/App.js":"FLHj"}]},{},["IVsl"], null)
-//# sourceMappingURL=/client.2c83eacd.js.map
+//# sourceMappingURL=speak-free.github.io/client.2c83eacd.js.map
