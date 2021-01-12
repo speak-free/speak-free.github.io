@@ -9,7 +9,7 @@
     "build": "parcel build index.html",
     "predeploy": "rm -rf dist && parcel build index.html --public-url speak-free.github.io",
     "deploy": "gh-pages -d dist",
-    "ghbuild": "rm -rf dist && parcel build index.html",
+    "ghbuild": "rm -rf dist && parcel build entry.html",
     "windeploy": "gh-pages -d dist"
   },
   "repository": {
