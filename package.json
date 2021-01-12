@@ -7,8 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
     "build": "parcel build index.html",
-    "predeploy": "rm -rf dist && parcel build index.html --public-url speak-free.github.io",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "rm -rf dist && parcel build index.htmls --public-url speak-free.github.io",
+    "deploy": "gh-pages -d dist",
+    "ghbuild":  "rm -rf dist && parcel build index.html"
   },
   "repository": {
     "type": "git",
