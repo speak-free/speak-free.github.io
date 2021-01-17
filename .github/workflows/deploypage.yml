@@ -22,6 +22,11 @@ jobs:
       run: npm ci
     - name: Build
       run: npm run ghbuild
+    - name: copy file
+      uses: canastro/copy-file-action@master
+      with:
+        source: "assets/font/LovelyCoffee.ttf"
+        target: "dist/LovelyCoffee.ttf"
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:

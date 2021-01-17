@@ -5,7 +5,7 @@
   "main": "src/client.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html",
+    "start": "parcel src/index.html",
     "build": "parcel build index.html",
     "predeploy": "rm -rf dist && parcel build index.html --public-url speak-free.github.io",
     "deploy": "gh-pages -d dist",
@@ -31,12 +31,15 @@
     "@babel/plugin-transform-runtime": "^7.12.10",
     "@babel/runtime": "^7.12.5",
     "gh-pages": "^3.1.0",
-    "parcel": "^1.12.4"
+    "parcel": "^1.12.4",
+    "prop-types": "^15.7.2",
+    "styled-components": "^5.2.1"
   },
   "dependencies": {
     "captcha-text-generator": "^1.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
     "svg-captcha": "^1.4.0"
   }
 }
